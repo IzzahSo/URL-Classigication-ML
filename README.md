@@ -8,7 +8,7 @@ The disadvantage of Blacklisting approach is that we have to do the tedious task
 
 In the given System we are using Machine-Learning techniques to classify a URL as either Safe or Unsafe in Real Time without even the need to download the webpage.
 
-Algorithms we are using in this system are :
+##Algorithms we are using in this system are :
 
 [Random Forest] (https://en.wikipedia.org/wiki/Random_forest)
 [Logistic Regression] (https://en.wikipedia.org/wiki/Logistic_regression)
@@ -22,6 +22,6 @@ Presence of Ip Address in Host Name
 Presence of Security Sensitive Words in URL
 and many more(around 22 total). The Host Based Features like country code in which site is hosted, creation date, updation date etc. are still yet to be added to the system and increase accuracy of the classifier but increase the Latency time in classifying the URL as we have to query WHOIS servers in order to come up with the Host Based Features. For this query purpose the PyWhois module has been used.
 
-About Dataset
+##About Dataset
 For this given system we retrieved from Kaggle:
 . https://www.kaggle.com/sid321axn/malicious-urls-dataset/code?datasetId=1486586
